@@ -14,9 +14,9 @@ Markdown badge, to paste into a README or docs page:
 [![Add KovaPDF to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=kovapdf&config=eyJ1cmwiOiJodHRwczovL21jcC5rb3ZhcGRmLmNvbSJ9)
 ```
 
-By hand: add the content of `mcp.json` here to `.cursor/mcp.json` in a project, or to `~/.cursor/mcp.json` for every project. The server is `https://mcp.kovapdf.com` over streamable HTTP. The first tool call opens the KovaPDF connect page, where you sign in; no key is needed.
+By hand: add the content of `mcp.json` here to `.cursor/mcp.json` in a project, or to `~/.cursor/mcp.json` for every project. The server is `https://mcp.kovapdf.com` over streamable HTTP. The first tool call opens the KovaPDF connect page, where you sign in to your KovaPDF account; no key is needed. A free account is enough to start.
 
-For code that calls the KovaPDF API, the Cursor rules file is in `../assistant-rules/.cursor/rules/kovapdf.mdc`.
+To write code that calls the KovaPDF API, start with the API docs at https://www.kovapdf.com/developers/docs, or use the official clients for [JavaScript](https://github.com/KovaPDF/kovapdf-js) and [Python](https://github.com/KovaPDF/kovapdf-python).
 
 These links are generated from the tool manifest and are also on https://www.kovapdf.com/developers/docs/connect.
 
